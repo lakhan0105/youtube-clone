@@ -1,0 +1,35 @@
+    <!-- hamburger icon -->
+    <!-- <i class="fa-thin fa-bars"></i> -->
+
+    <!-- youtube icon  -->
+    <!-- https://www.flaticon.com/free-icon/youtube_1384060?term=youtube&page=1&position=4&origin=tag&related_id=1384060 -->
+
+    <!-- search icon -->
+    <!-- <i class="fa-sharp fa-light fa-magnifying-glass"></i> -->
+
+    <!-- micro phone  -->
+    <!-- <i class="fa-solid fa-microphone"></i> -->
+
+    <!-- video plus icon -->
+    <!-- <i class="fa-light fa-video-plus"></i> -->
+
+    <!-- bell icon -->
+    <!-- <i class="fa-regular fa-bell"></i> -->
+
+    <!-- home icon -->
+    <!-- <i class="fa-solid fa-house"></i> -->
+
+    <!-- libarary -->
+    <!-- <i class="fa-thin fa-album-collection"></i> -->
+
+    <!-- watch later -->
+    <!-- <i class="fa-solid fa-clock"></i> -->
+
+    <!-- liked  -->
+    <!-- <i class="fa-solid fa-thumbs-up"></i> -->
+
+    <!-- youtube music logo -->
+    <!-- https://seeklogo.com/images/Y/youtube-music-logo-50422973B2-seeklogo.com.png -->
+
+    <!-- settings -->
+    <!-- <i class="fa-regular fa-gear"></i> -->
