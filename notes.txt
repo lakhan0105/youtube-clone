@@ -1,35 +1,3 @@
-    <!-- hamburger icon -->
-    <!-- <i class="fa-thin fa-bars"></i> -->
+- i had faced an issue regarding the tumbnails, where the youtube thumbnails had black part in them and they were messing up the videos grid, and the video articles where not feelingg like they where aligning. So i had to make the img-container-> overflow:hidden and img-> object-fit:cover, so there was only less amount of black part left, then i reduced the height of the img-container 1em, then the problem was completely solved.
 
-    <!-- youtube icon  -->
-    <!-- https://www.flaticon.com/free-icon/youtube_1384060?term=youtube&page=1&position=4&origin=tag&related_id=1384060 -->
-
-    <!-- search icon -->
-    <!-- <i class="fa-sharp fa-light fa-magnifying-glass"></i> -->
-
-    <!-- micro phone  -->
-    <!-- <i class="fa-solid fa-microphone"></i> -->
-
-    <!-- video plus icon -->
-    <!-- <i class="fa-light fa-video-plus"></i> -->
-
-    <!-- bell icon -->
-    <!-- <i class="fa-regular fa-bell"></i> -->
-
-    <!-- home icon -->
-    <!-- <i class="fa-solid fa-house"></i> -->
-
-    <!-- libarary -->
-    <!-- <i class="fa-thin fa-album-collection"></i> -->
-
-    <!-- watch later -->
-    <!-- <i class="fa-solid fa-clock"></i> -->
-
-    <!-- liked  -->
-    <!-- <i class="fa-solid fa-thumbs-up"></i> -->
-
-    <!-- youtube music logo -->
-    <!-- https://seeklogo.com/images/Y/youtube-music-logo-50422973B2-seeklogo.com.png -->
-
-    <!-- settings -->
-    <!-- <i class="fa-regular fa-gear"></i> -->
+- i had issue where i could not map over the videos array-object, plcecd inside the data object, i searched and later found out to do nested mapping and it worked. 

@@ -25,7 +25,7 @@
             <div class="nav-center">
                 <!-- search bar -->
                 <div class="input-container flex">
-                    <form class="flex">
+                    <form class=" input-form flex">
                         <input class="search-input" type="text" placeholder="Search">
                         <span class="search-icon">
                             <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
@@ -54,57 +54,109 @@
         </nav>
     </header>
 
-    <!-- sidebar -->
-    <aside class="sidebar-container">
-        <div class="links-container">
-            <!-- General links -->
-            <ul class="general-links">
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">Home</a>
-                </li>
-            </ul>
+    <!-- main -->
+    <main class="main-section ">
+        <!-- sidebar -->
+        <aside class="sidebar-container">
+            <div class="links-container">
+                <!-- General links -->
+                <ul class="general-links">
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa-solid fa-circle-play"></i></span>
+                        <a href="#">Shorts</a>
+                    </li>
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa-solid fa-folder-plus"></i></span>
+                        <a href="#">Subscriptions</a>
+                    </li>
+                </ul>
 
-            <!-- user library links -->
-            <ul class="user-library-links">
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">Library</a>
-                </li>
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">History</a>
-                </li>
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">Your videos</a>
-                </li>
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">Watch later</a>
-                </li>
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">liked videos</a>
-                </li>
-                <li>
-                    <span class="icon hamburger-icon"><i class="fa-solid fa-house"></i></span>
-                    <a href="#">Show more</a>
-                </li>
-            </ul>
-        </div>
-    </aside>
+                <hr class="horizontal-line">
+
+                <!-- user library links -->
+                <ul class="user-library-links">
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa-solid fa-photo-film"></i></span>
+                        <a href="#">Library</a>
+                    </li>
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                        <a href="#">History</a>
+                    </li>
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa-solid fa-camera-retro"></i></span>
+                        <a href="#">Your videos</a>
+                    </li>
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa-solid fa-clock"></i></span>
+                        <a href="#">Watch later</a>
+                    </li>
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa-solid fa-thumbs-up"></i></span>
+                        <a href="#">liked videos</a>
+                    </li>
+                    <li>
+                        <span class="icon hamburger-icon"><i class="fa fa-regular fa-square-down"></i></span>
+                        <a href="#">Show more</a>
+                    </li>
+                </ul>
+
+                <hr class="horizontal-line">
+            </div>
+        </aside>
+
+        <!-- videos section -->
+        <section class="hero-section">
+            <div class="buttons-container">
+                <!-- filter buttons (Added dynamically using map method) -->
+                <button class="btn filter-btn" data-id="free">free</button>
+                <!-- <button class="btn filter-btn" data-id="wildlife">wildlife</button> -->
+            </div>
+
+            <div class="videos-container">
+                <!-- article (added dynamically using map) -->
+                <!-- <article class="video-article">
+                    <div class="img-container">
+                        <img class="video-img"
+                            src="https://i.ytimg.com/vi/CP5k2gRabvc/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLD-5Ne8ry5VTtQyZyDXGO2Qy77ldQ"
+                            alt="not found">
+                    </div>
+
+                    <div class="video-footer">
+                        <div class="channel-dp">
+                            <img src="https://yt3.ggpht.com/ytc/AOPolaSNGMnVCodKftnyi23pEdXUafVwc85x9bKlGE2T=s68-c-k-c0x00ffffff-no-rj"
+                                alt="channel dp not found">
+                        </div>
+
+                        <div class="video-info">
+                            <div class="video-info-top">
+                                <p class="video-name">
+                                    Wildlife Animals| Safari Moments | Forest | Free Videos - no copyright footages
+                                </p>
+                                <p class="channel-name">channel name</p>
+                            </div>
+
+                            <div class="video-info-bottom">
+                                <p class="video-views">views</p>
+                                <span>.</span>
+                                <p class="video-upload-time">1 year ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </article> -->
+
+            </div>
+        </section>
+    </main>
+
 
     <!-- script -->
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/0e392246cd.js" crossorigin="anonymous"></script>
+    <script src="./data.js"></script>
     <script src="./script.js"></script>
 </body>
